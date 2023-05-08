@@ -8,7 +8,6 @@ const { format } = require('date-fns');
 
 const SLACK_API_TOKEN = process.env.SLACK_API_TOKEN;
 const SLACK_SIGNING_SECRET = process.env.SLACK_SIGNING_SECRET;
-const GOOGLE_API_KEY = process.env.GOOGLE_API_KEY;
 const SPREADSHEET_ID = process.env.SPREADSHEET_ID;
 const GOOGLE_SERVICE_ACCOUNT_KEY_FILE = process.env.GOOGLE_SERVICE_ACCOUNT_KEY_FILE;
 
